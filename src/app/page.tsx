@@ -3,10 +3,7 @@ import {useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Image from "next/image";
-import fs from 'fs';
-import path from 'path';
-import remark from 'remark';
-import html from 'remark-html';
+
 
 
 export default async function Page() {

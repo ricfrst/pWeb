@@ -31,10 +31,11 @@ export default function RootLayout({
         >
 
         <div className={"bg-white-400 flex flex-col h-dvh"}>
-            <div className={"flex h-[20%]"}>
-                <Navbar/>
+            <div className={"flex h-[%]"}>
+
             </div>
-            <div className={"flex-row flex h-full"}>
+            <div className={"flex-row flex h-full "}>
+
                 <Sidebar/>
                 {children}
 
