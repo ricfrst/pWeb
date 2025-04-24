@@ -34,7 +34,7 @@ export default function RootLayout({
             <div className={"flex h-[%]"}>
 
             </div>
-            <div className={"flex-row flex h-full "}>
+            <div className={"flex-row flex "}>
 
                 <Sidebar/>
                 {children}
