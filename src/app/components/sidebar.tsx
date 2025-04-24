@@ -11,13 +11,13 @@ export default function Sidebar(){
                        height="60"
                 className="rounded-full cursor-pointer"/></Link>
                 <a></a>
-                <a className="font-bold text-white-500 hover:text-gray-500 transition-colors duration-300">Rick Furst</a>
+                <a className="font-bold font-sans text-white-500 hover:text-gray-500 transition-colors duration-300">Rick Furst</a>
 
             </div>
             <div role="tablist" className="tabs flex-col  w-[45%] items-end">
                 <Link href="/about" role="tab" className="tab hover:text-white transition-colors duration-300">About</Link>
                 <Link href="/portfolio" role="tab" className="tab">Portfolio</Link>
-                <a role="tab" className="tab">Reading List</a>
+                <Link href="/readingList" role ="tab" className="tab">Reading List</Link>
                 <a role="tab" className="tab">Education</a>
             </div>
         </div>
