@@ -10,9 +10,9 @@ export default function Page() {
 
     return (
 
-        <div className="MAIN flex   m-5 flexbox h-full mr-66 mt-17 ">
+        <div className="MAIN flex  font-serif m-5 flexbox h-full mr-66 mt-17 ">
             <div className = "flex flex-col m-4 flex">
-                <p>Hey there! Im Rick </p>
+                <p className="font-bold">Hey there! Im Rick </p>
                 <p>I am aspiring software engineer,</p>
                 <a> Currently studying CS and Finance @ Florida State University  </a>
             </div>

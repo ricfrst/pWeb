@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Sidebar(){
     return(
-        <div className=" MAIN SIDE flex flex-col w-[30%] items-end mt-15">
+        <div className=" MAIN SIDE font-serif flex flex-col w-[30%] items-end mt-15">
             <div className="PFP flex flex-col m-4 gap-2 items-end">
                 <Link href={"/"} className="transition-transform duration-300 hover:rotate-10"><Image src={"/please.jpg"}
                        alt='pfp'
