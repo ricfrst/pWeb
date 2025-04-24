@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Sidebar(){
     return(
@@ -14,7 +15,7 @@ export default function Sidebar(){
 
             </div>
             <div role="tablist" className="tabs flex-col mt- tabs-border w-[45%] items-end">
-                <a role="tab" className="tab">About</a>
+                <Link href="/about" role="tab" className="tab">About</Link>
                 <a role="tab" className="tab">Portfolio</a>
                 <a role="tab" className="tab tab-active">Reading List</a>
                 <a role="tab" className="tab">Education</a>

@@ -12,9 +12,11 @@ export default function Page() {
 
         <div className="MAIN flex   m-5 flexbox h-full mr-66 mt-17 ">
             <div className = "flex flex-col m-4 flex">
-                <p>ABOUT </p>
-                <p>I am aspiring software engineer,</p>
-                <a> Currently studying CS and Finance @ Florida State University  </a>
+                <div className = "mb-1 font-bold ">
+                    <h1>About </h1>
+                </div>
+                <h2>A little about me</h2>
+
             </div>
 
         </div>
