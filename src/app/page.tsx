@@ -11,7 +11,7 @@ export default function Page() {
     return (
 
         <div className="MAIN flex  font-serif m-5 flexbox h-full mr-66 mt-17 ">
-            <div className = "flex flex-col m-4 flex">
+            <div className = "flex flex-col m-4">
                 <p className="font-bold mb-1">Hey there! Im Rick </p>
                 <p className="font-bold text-gray-400 mb-3">Miami, FL </p>
 
