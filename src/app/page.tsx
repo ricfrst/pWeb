@@ -4,9 +4,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "motion/react"
-
-import * as motion from "motion/react-client"
 
 
 export default function Page() {
