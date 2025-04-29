@@ -23,8 +23,11 @@ export default function Page() {
                 <h1 className="font-bold mb-3 mt-6">Contact Me!</h1>
                 <a>Feel free to reach out on
                     <a> </a>
-                    <Link href="https://www.linkedin.com/in/ricardo-furst/" className="text-blue-200 underline">
-                         LinkedIn
+                    <Link href="https://www.linkedin.com/in/ricardo-furst/"
+                          className="underline"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                            LinkedIn
                     </Link>
                 </a>
 

@@ -22,7 +22,12 @@ export default function Page() {
                     while I was interested in the coursework, that was not what I wanted to do for the rest
                     of my life. Thanks to my close friends and roommate,
                     I became interested in their CS coursework, and quickly began studying on my own.</a>
+                <a className = "mt-12 whitespace-normal break-words w-[450px] leading-relaxed">
+                    I added the CS
+                    major to my coursework and swiftly began making up for lost time,
+                    now with a full 180 degree turn in my academic focus.
 
+                </a>
             </div>
 
         </div>
